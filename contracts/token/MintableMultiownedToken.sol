@@ -21,8 +21,9 @@ contract MintableMultiownedToken is MintableToken, MultiownedControlled, Standar
 
     function MintableMultiownedToken(address[] _owners, uint _signaturesRequired, address _minter)
         public
-        MultiownedControlled(_owners, _signaturesRequired, _minter)
+        MultiownedControlled(_owners, _signaturesRequired)
     {
+       // setControllerInternal(_minter);
     }
 
 

@@ -7,7 +7,7 @@ import '../../crowdsale/SimpleCrowdsaleBase.sol';
 import '../../crowdsale/FundsRegistry.sol';
 import '../../crowdsale/InvestmentAnalytics.sol';
 import '../../ownership/multiowned.sol';
-import '../../test_helpers/token/MintableMultiownedCirculatingTokenTestHelper.sol';
+import '../../_test_helpers/token/MintableMultiownedCirculatingTokenTestHelper.sol';
 
 
 /// @title CrowdsaleWithFundsTestHelper  USE ONLY FOR TEST PURPOSES

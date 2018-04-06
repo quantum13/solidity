@@ -44,8 +44,9 @@ contract FundsRegistry is ArgumentsChecker, MultiownedControlled, ReentrancyGuar
 
     function FundsRegistry(address[] _owners, uint _signaturesRequired, address _controller)
         public
-        MultiownedControlled(_owners, _signaturesRequired, _controller)
+        MultiownedControlled(_owners, _signaturesRequired)
     {
+        //setControllerInternal(_controller)
     }
 
     /// @dev performs only allowed state transitions

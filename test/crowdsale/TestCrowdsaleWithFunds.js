@@ -5,8 +5,8 @@
 import {crowdsaleUTest} from '../utest/Crowdsale';
 import expectThrow from '../helpers/expectThrow';
 
-const CrowdsaleWithFundsTestHelper = artifacts.require("./test_helpers/crowdsale/CrowdsaleWithFundsTestHelper.sol");
-const MintableMultiownedCirculatingTokenTestHelper = artifacts.require("./test_helpers/token/MintableMultiownedCirculatingTokenTestHelper.sol");
+const CrowdsaleWithFundsTestHelper = artifacts.require("./_test_helpers/crowdsale/CrowdsaleWithFundsTestHelper.sol");
+const MintableMultiownedCirculatingTokenTestHelper = artifacts.require("./_test_helpers/token/MintableMultiownedCirculatingTokenTestHelper.sol");
 const FundsRegistry = artifacts.require("./crowdsale/FundsRegistry.sol");
 
 

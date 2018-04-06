@@ -4,7 +4,7 @@
 
 import expectThrow from '../helpers/expectThrow';
 
-const MintableEmissionCapableMultiownedTokenTestHelper = artifacts.require("../test_helpers/token/MintableEmissionCapableMultiownedTokenTestHelper.sol");
+const MintableEmissionCapableMultiownedTokenTestHelper = artifacts.require("../_test_helpers/token/MintableEmissionCapableMultiownedTokenTestHelper.sol");
 const l = console.log;
 
 // Note: build artifact does not get rebuilt as MintableMultiownedToken changes (by some reason)

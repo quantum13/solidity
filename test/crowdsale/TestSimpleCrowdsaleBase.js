@@ -4,7 +4,7 @@
 
 import {crowdsaleUTest} from '../utest/Crowdsale';
 
-const SimpleCrowdsaleTestHelper = artifacts.require("./test_helpers/crowdsale/SimpleCrowdsaleTestHelper.sol");
+const SimpleCrowdsaleTestHelper = artifacts.require("./_test_helpers/crowdsale/SimpleCrowdsaleTestHelper.sol");
 const MintableMultiownedToken = artifacts.require("./token/MintableMultiownedToken.sol");
 
 
